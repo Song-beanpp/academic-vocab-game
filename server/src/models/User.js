@@ -2,15 +2,20 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
+  username: {
+    type: String,
+    required: [true, 'Username is required'],
+    unique: true,
+    trim: true
+  },
   studentId: {
     type: String,
-    required: [true, 'Student ID is required'],
     unique: true,
+    sparse: true,
     trim: true
   },
   name: {
     type: String,
-    required: [true, 'Name is required'],
     trim: true
   },
   email: {
@@ -29,7 +34,7 @@ const userSchema = new mongoose.Schema({
   group: {
     type: String,
     enum: ['experimental', 'control'],
-    required: [true, 'Group assignment is required']
+    default: 'experimental'
   },
   role: {
     type: String,
