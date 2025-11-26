@@ -10,23 +10,30 @@ const { protect } = require('../middleware/auth');
 // @access  Public
 router.post('/register', async (req, res) => {
   try {
-    const { studentId, name, email, password, group } = req.body;
+    const { username, studentId, name, email, password, group } = req.body;
 
     // Check if user already exists
+    const checkFields = [{ email }];
+    if (username) checkFields.push({ username });
+    if (studentId) checkFields.push({ studentId });
+
     const existingUser = await User.findOne({
-      $or: [{ email }, { studentId }]
+      $or: checkFields
     });
 
     if (existingUser) {
       return res.status(400).json({
         message: existingUser.email === email
           ? 'Email already registered'
+          : existingUser.username === username
+          ? 'Username already exists'
           : 'Student ID already exists'
       });
     }
 
     // Create user
     const user = await User.create({
+      username,
       studentId,
       name,
       email,
@@ -44,6 +51,7 @@ router.post('/register', async (req, res) => {
 
     res.status(201).json({
       _id: user._id,
+      username: user.username,
       studentId: user.studentId,
       name: user.name,
       email: user.email,
@@ -114,6 +122,7 @@ router.post('/login', async (req, res) => {
 
     res.json({
       _id: user._id,
+      username: user.username,
       studentId: user.studentId,
       name: user.name,
       email: user.email,
@@ -137,6 +146,7 @@ router.get('/me', protect, async (req, res) => {
 
     res.json({
       _id: user._id,
+      username: user.username,
       studentId: user.studentId,
       name: user.name,
       email: user.email,
