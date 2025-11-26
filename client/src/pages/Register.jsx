@@ -4,6 +4,7 @@ import { useAuth } from '../contexts/AuthContext'
 
 const Register = () => {
   const [formData, setFormData] = useState({
+    username: '',
     studentId: '',
     name: '',
     email: '',
@@ -41,6 +42,7 @@ const Register = () => {
 
     try {
       await register({
+        username: formData.username,
         studentId: formData.studentId,
         name: formData.name,
         email: formData.email,
@@ -76,14 +78,29 @@ const Register = () => {
 
           <div className="space-y-4">
             <div>
+              <label htmlFor="username" className="block text-sm font-medium text-gray-700">
+                Username
+              </label>
+              <input
+                id="username"
+                name="username"
+                type="text"
+                required
+                value={formData.username}
+                onChange={handleChange}
+                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                placeholder="Choose a unique username"
+              />
+            </div>
+
+            <div>
               <label htmlFor="studentId" className="block text-sm font-medium text-gray-700">
-                Student ID
+                Student ID <span className="text-gray-500 text-xs">(optional)</span>
               </label>
               <input
                 id="studentId"
                 name="studentId"
                 type="text"
-                required
                 value={formData.studentId}
                 onChange={handleChange}
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
@@ -93,13 +110,12 @@ const Register = () => {
 
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                Full Name
+                Full Name <span className="text-gray-500 text-xs">(optional)</span>
               </label>
               <input
                 id="name"
                 name="name"
                 type="text"
-                required
                 value={formData.name}
                 onChange={handleChange}
                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
