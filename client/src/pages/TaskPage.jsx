@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import api from '../utils/api'
 import Navbar from '../components/common/Navbar'
 
 // Import game components - Module 1: Vocabulary
@@ -39,7 +39,7 @@ const TaskPage = () => {
   useEffect(() => {
     const fetchTaskData = async () => {
       try {
-        const res = await axios.get(`/api/game/task/${taskId}`)
+        const res = await api.get(`/api/game/task/${taskId}`)
         setTaskData(res.data)
 
         // If task already completed, show message
@@ -63,7 +63,7 @@ const TaskPage = () => {
     const clampedRate = Math.max(0, Math.min(1, correctRate))
 
     try {
-      const res = await axios.post('/api/game/submit-task', {
+      const res = await api.post('/api/game/submit-task', {
         taskId,
         module: taskData.module,
         taskType: taskData.taskType,

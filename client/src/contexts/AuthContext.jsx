@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-import axios from 'axios'
+import api from '../utils/api'
 
 const AuthContext = createContext(null)
 
@@ -16,21 +16,15 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true)
   const [token, setToken] = useState(localStorage.getItem('token'))
 
-  // Set axios default header
-  useEffect(() => {
-    if (token) {
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
-    } else {
-      delete axios.defaults.headers.common['Authorization']
-    }
-  }, [token])
+  // Token is automatically handled by api interceptor
+  // No need for manual header management
 
   // Check if user is logged in on mount
   useEffect(() => {
     const checkAuth = async () => {
       if (token) {
         try {
-          const res = await axios.get('/api/auth/me')
+          const res = await api.get('/api/auth/me')
           setUser(res.data)
         } catch (error) {
           console.error('Auth check failed:', error)
@@ -44,7 +38,7 @@ export const AuthProvider = ({ children }) => {
   }, [token])
 
   const login = async (email, password) => {
-    const res = await axios.post('/api/auth/login', { email, password })
+    const res = await api.post('/api/auth/login', { email, password })
     const { token: newToken, ...userData } = res.data
     localStorage.setItem('token', newToken)
     setToken(newToken)
@@ -53,7 +47,7 @@ export const AuthProvider = ({ children }) => {
   }
 
   const register = async (userData) => {
-    const res = await axios.post('/api/auth/register', userData)
+    const res = await api.post('/api/auth/register', userData)
     const { token: newToken, ...user } = res.data
     localStorage.setItem('token', newToken)
     setToken(newToken)

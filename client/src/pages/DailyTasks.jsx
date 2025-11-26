@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import api from '../utils/api'
 import Navbar from '../components/common/Navbar'
 
 const DailyTasks = () => {
@@ -12,7 +12,7 @@ const DailyTasks = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get('/api/game/daily-tasks')
+        const res = await api.get('/api/game/daily-tasks')
         setTasksData(res.data)
       } catch (err) {
         setError('Failed to load daily tasks')

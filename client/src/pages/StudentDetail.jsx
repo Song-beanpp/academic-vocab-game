@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import axios from 'axios'
+import api from '../utils/api'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 import Navbar from '../components/common/Navbar'
 
@@ -23,7 +23,7 @@ const StudentDetail = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`/api/admin/student/${id}`)
+        const res = await api.get(`/api/admin/student/${id}`)
         setData(res.data)
       } catch (error) {
         console.error('Error fetching student:', error)
@@ -37,7 +37,7 @@ const StudentDetail = () => {
   const handleScoreSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('/api/test/submit', {
+      await api.post('/api/test/submit', {
         studentId: data.student.studentId,
         testType: scoreForm.testType,
         scores: {
@@ -53,7 +53,7 @@ const StudentDetail = () => {
       alert('Score submitted successfully')
       setShowScoreForm(false)
       // Refresh data
-      const res = await axios.get(`/api/admin/student/${id}`)
+      const res = await api.get(`/api/admin/student/${id}`)
       setData(res.data)
     } catch (error) {
       console.error('Error submitting score:', error)

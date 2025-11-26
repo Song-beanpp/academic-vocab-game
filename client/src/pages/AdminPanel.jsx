@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import axios from 'axios'
+import api from '../utils/api'
 import Navbar from '../components/common/Navbar'
 
 const AdminPanel = () => {
@@ -12,7 +12,7 @@ const AdminPanel = () => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const res = await axios.get('/api/admin/students')
+        const res = await api.get('/api/admin/students')
         setStudents(res.data)
       } catch (error) {
         console.error('Error fetching students:', error)
@@ -25,7 +25,7 @@ const AdminPanel = () => {
 
   const handleExport = async () => {
     try {
-      const res = await axios.get('/api/admin/export-csv', {
+      const res = await api.get('/api/admin/export-csv', {
         responseType: 'blob'
       })
       const url = window.URL.createObjectURL(new Blob([res.data]))

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import api from '../utils/api'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts'
 import Navbar from '../components/common/Navbar'
 import { useAuth } from '../contexts/AuthContext'
@@ -14,8 +14,8 @@ const Progress = () => {
     const fetchData = async () => {
       try {
         const [progressRes, scoresRes] = await Promise.all([
-          axios.get('/api/game/progress'),
-          axios.get('/api/test/my-scores')
+          api.get('/api/game/progress'),
+          api.get('/api/test/my-scores')
         ])
         setProgress(progressRes.data)
         setTestScores(scoresRes.data)

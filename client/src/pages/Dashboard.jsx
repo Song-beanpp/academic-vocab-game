@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import axios from 'axios'
+import api from '../utils/api'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts'
 import Navbar from '../components/common/Navbar'
 import { useAuth } from '../contexts/AuthContext'
@@ -13,7 +13,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchProgress = async () => {
       try {
-        const res = await axios.get('/api/game/progress')
+        const res = await api.get('/api/game/progress')
         setProgress(res.data)
       } catch (error) {
         console.error('Error fetching progress:', error)
