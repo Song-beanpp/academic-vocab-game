@@ -1,0 +1,902 @@
+{
+  "collocation_error_database": {
+    "metadata": {
+      "source_corpus": "Pre-test Learner Corpus (80 essays)",
+      "total_words": 72162,
+      "reference_corpus": "BE2021",
+      "total_collocations": 60,
+      "misuse_count": 19,
+      "overuse_count": 33,
+      "underuse_count": 8
+    },
+    
+    "misuse": [
+      {
+        "collocation": "help university",
+        "learner_freq": 16,
+        "learner_per_million": 222,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "support universities",
+        "grammar_issue": "help + institution (incorrect)",
+        "examples": [
+          "Government funding can support universities in conducting research.",
+          "Partnerships with industry support universities' development.",
+          "Policies that support universities contribute to national innovation."
+        ]
+      },
+      {
+        "collocation": "improve students",
+        "learner_freq": 9,
+        "learner_per_million": 125,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "enhance students' performance / help students improve",
+        "grammar_issue": "improve + direct object (person) - incorrect",
+        "examples": [
+          "Technology can enhance students' performance in mathematics.",
+          "Effective teaching strategies help students improve their writing skills.",
+          "Feedback mechanisms enable students to improve continuously."
+        ]
+      },
+      {
+        "collocation": "make students",
+        "learner_freq": 9,
+        "learner_per_million": 125,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "enable students to / cause students to",
+        "grammar_issue": "make + students (incomplete structure)",
+        "examples": [
+          "Interactive activities enable students to apply theoretical knowledge.",
+          "Challenging tasks cause students to think critically.",
+          "Effective pedagogy empowers students to become independent learners."
+        ]
+      },
+      {
+        "collocation": "control ability",
+        "learner_freq": 8,
+        "learner_per_million": 111,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "self-control / ability to regulate",
+        "grammar_issue": "awkward noun-noun compound",
+        "examples": [
+          "Developing self-control is essential for academic success.",
+          "Students' ability to regulate their behavior affects learning outcomes.",
+          "Self-regulatory skills enable effective time management."
+        ]
+      },
+      {
+        "collocation": "learn deeply",
+        "learner_freq": 7,
+        "learner_per_million": 97,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "engage in deep learning / learn in depth",
+        "grammar_issue": "adverb placement awkward",
+        "examples": [
+          "Students who engage in deep learning demonstrate better retention.",
+          "Critical thinking enables learners to learn concepts in depth.",
+          "Deep learning approaches foster comprehensive understanding."
+        ]
+      },
+      {
+        "collocation": "helps students",
+        "learner_freq": 7,
+        "learner_per_million": 97,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "supports student learning / facilitates students'",
+        "grammar_issue": "subject-verb agreement issue / overuse",
+        "examples": [
+          "Technology supports student learning in various contexts.",
+          "Scaffolding facilitates students' understanding of complex concepts.",
+          "Peer collaboration enhances student engagement."
+        ]
+      },
+      {
+        "collocation": "classmates share",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "peers share / students exchange",
+        "grammar_issue": "awkward collocation",
+        "examples": [
+          "Peers share insights during collaborative learning activities.",
+          "Students exchange ideas in discussion forums.",
+          "Collaborative platforms enable knowledge sharing among learners."
+        ]
+      },
+      {
+        "collocation": "help people",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "assist individuals / support people in",
+        "grammar_issue": "incomplete structure (help sb do sth)",
+        "examples": [
+          "Educational programs assist individuals in developing digital literacy.",
+          "Technology can support people in accessing information.",
+          "Interventions help individuals overcome learning barriers."
+        ]
+      },
+      {
+        "collocation": "makes people",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "causes individuals to / enables people to",
+        "grammar_issue": "incomplete structure",
+        "examples": [
+          "Social pressure causes individuals to conform to norms.",
+          "Education enables people to make informed decisions.",
+          "Positive reinforcement encourages individuals to persist."
+        ]
+      },
+      {
+        "collocation": "make student",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "enable students to",
+        "grammar_issue": "singular/plural error",
+        "examples": [
+          "Effective teaching strategies enable students to achieve their potential.",
+          "Technology empowers students to access diverse resources.",
+          "Support systems help students overcome academic challenges."
+        ]
+      },
+      {
+        "collocation": "affect students",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "influence student performance / impact students'",
+        "grammar_issue": "affect requires object complement",
+        "examples": [
+          "Environmental factors influence student performance significantly.",
+          "Teaching methods impact students' learning outcomes.",
+          "Socioeconomic status affects students' academic achievement."
+        ]
+      },
+      {
+        "collocation": "hurt university",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "harm universities' reputation / damage institutional",
+        "grammar_issue": "informal/awkward collocation",
+        "examples": [
+          "Scandals can harm universities' reputations.",
+          "Budget cuts damage institutional research capacity.",
+          "Poor governance undermines university effectiveness."
+        ]
+      },
+      {
+        "collocation": "teach students",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 5,
+        "error_type": "misuse",
+        "correct_form": "educate students / instruct learners",
+        "grammar_issue": "oversimplified, non-academic",
+        "examples": [
+          "Effective pedagogies educate students in critical thinking.",
+          "Faculty members instruct learners using evidence-based methods.",
+          "Curricula are designed to educate students across disciplines."
+        ]
+      },
+      {
+        "collocation": "guide students",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 3,
+        "error_type": "misuse",
+        "correct_form": "facilitate student learning / mentor students",
+        "grammar_issue": "oversimplified",
+        "examples": [
+          "Advisors facilitate student learning through individualized support.",
+          "Experienced faculty mentor students in research practices.",
+          "Scaffolding strategies support students' independent inquiry."
+        ]
+      },
+      {
+        "collocation": "motivate students",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 2,
+        "error_type": "misuse",
+        "correct_form": "enhance student motivation / foster engagement",
+        "grammar_issue": "oversimplified",
+        "examples": [
+          "Gamification strategies enhance student motivation in online courses.",
+          "Authentic tasks foster engagement with course material.",
+          "Autonomy-supportive teaching cultivates intrinsic motivation."
+        ]
+      },
+      {
+        "collocation": "connects students",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "facilitates connections among students",
+        "grammar_issue": "subject-verb agreement",
+        "examples": [
+          "Technology facilitates connections among students globally.",
+          "Learning platforms enable peer collaboration.",
+          "Social networks support student communities."
+        ]
+      },
+      {
+        "collocation": "use smu",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "utilize social media / employ digital platforms",
+        "grammar_issue": "inappropriate abbreviation",
+        "examples": [
+          "Students utilize social media for collaborative learning.",
+          "Educators employ digital platforms to enhance engagement.",
+          "Researchers leverage online networks for data collection."
+        ]
+      },
+      {
+        "collocation": "conducted by china",
+        "learner_freq": 2,
+        "learner_per_million": 28,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "conducted in China / Chinese researchers conducted",
+        "grammar_issue": "passive voice misuse",
+        "examples": [
+          "Research conducted in China reveals significant patterns.",
+          "Chinese researchers conducted extensive surveys.",
+          "Studies undertaken by Chinese institutions demonstrate..."
+        ]
+      },
+      {
+        "collocation": "get informations",
+        "learner_freq": 2,
+        "learner_per_million": 28,
+        "corpus_freq_per_million": 0,
+        "error_type": "misuse",
+        "correct_form": "obtain information / acquire data",
+        "grammar_issue": "information is uncountable",
+        "examples": [
+          "Students obtain information from various academic sources.",
+          "Researchers acquire data through systematic observation.",
+          "Digital libraries enable access to scholarly information."
+        ]
+      }
+    ],
+    
+    "overuse": [
+      {
+        "collocation": "social media",
+        "learner_freq": 1802,
+        "learner_per_million": 24970,
+        "corpus_freq_per_million": 85.167,
+        "ratio": 293,
+        "error_type": "overuse",
+        "correct_form": "digital platforms / online communication platforms / social networking sites",
+        "issue": "overused informal term",
+        "examples": [
+          "Digital platforms have transformed educational communication.",
+          "Online communication platforms facilitate global collaboration.",
+          "Social networking sites enable peer-to-peer learning."
+        ]
+      },
+      {
+        "collocation": "helpful tool",
+        "learner_freq": 55,
+        "learner_per_million": 762,
+        "corpus_freq_per_million": 0.869,
+        "ratio": 877,
+        "error_type": "overuse",
+        "correct_form": "valuable resource / effective instrument / useful mechanism",
+        "issue": "informal, vague",
+        "examples": [
+          "Technology serves as a valuable resource for language learning.",
+          "Analytics provide an effective instrument for assessment.",
+          "Feedback constitutes a useful mechanism for improvement."
+        ]
+      },
+      {
+        "collocation": "useful tool",
+        "learner_freq": 19,
+        "learner_per_million": 263,
+        "corpus_freq_per_million": 0.869,
+        "ratio": 303,
+        "error_type": "overuse",
+        "correct_form": "effective instrument / valuable resource",
+        "issue": "informal, vague",
+        "examples": [
+          "Formative assessment is an effective instrument for learning.",
+          "Digital libraries constitute a valuable resource for research.",
+          "Collaborative platforms serve as useful mechanisms."
+        ]
+      },
+      {
+        "collocation": "great tool",
+        "learner_freq": 22,
+        "learner_per_million": 305,
+        "corpus_freq_per_million": 0,
+        "ratio": null,
+        "error_type": "overuse",
+        "correct_form": "powerful resource / effective means",
+        "issue": "informal adjective",
+        "examples": [
+          "Technology represents a powerful resource for differentiation.",
+          "Simulation provides an effective means of experiential learning.",
+          "Multimedia serves as a versatile educational resource."
+        ]
+      },
+      {
+        "collocation": "powerful tool",
+        "learner_freq": 12,
+        "learner_per_million": 166,
+        "corpus_freq_per_million": 0,
+        "ratio": null,
+        "error_type": "overuse",
+        "correct_form": "effective mechanism / potent instrument",
+        "issue": "cliché expression",
+        "examples": [
+          "Data visualization serves as an effective mechanism for understanding.",
+          "Peer review functions as a potent instrument for quality assurance.",
+          "Metacognitive strategies constitute powerful learning mechanisms."
+        ]
+      },
+      {
+        "collocation": "daily life",
+        "learner_freq": 52,
+        "learner_per_million": 721,
+        "corpus_freq_per_million": 6.952,
+        "ratio": 104,
+        "error_type": "overuse",
+        "correct_form": "everyday contexts / routine activities / lived experience",
+        "issue": "informal, non-academic",
+        "examples": [
+          "Technology is integrated into everyday contexts of learning.",
+          "Skills transfer to routine activities beyond the classroom.",
+          "Education connects to students' lived experiences."
+        ]
+      },
+      {
+        "collocation": "real life",
+        "learner_freq": 19,
+        "learner_per_million": 263,
+        "corpus_freq_per_million": 6.952,
+        "ratio": 38,
+        "error_type": "overuse",
+        "correct_form": "authentic contexts / real-world applications / practical settings",
+        "issue": "informal expression",
+        "examples": [
+          "Case studies provide authentic contexts for problem-solving.",
+          "Internships offer real-world applications of theoretical knowledge.",
+          "Simulations replicate practical settings for skill development."
+        ]
+      },
+      {
+        "collocation": "make friends",
+        "learner_freq": 10,
+        "learner_per_million": 139,
+        "corpus_freq_per_million": 2.607,
+        "ratio": 53,
+        "error_type": "overuse",
+        "correct_form": "establish relationships / form social connections / develop networks",
+        "issue": "informal, non-academic",
+        "examples": [
+          "University enables students to establish meaningful relationships.",
+          "Collaborative learning helps form social connections.",
+          "Professional development opportunities facilitate network building."
+        ]
+      },
+      {
+        "collocation": "spare time",
+        "learner_freq": 11,
+        "learner_per_million": 152,
+        "corpus_freq_per_million": 1.738,
+        "ratio": 87,
+        "error_type": "overuse",
+        "correct_form": "leisure time / discretionary time / free periods",
+        "issue": "informal expression",
+        "examples": [
+          "Students allocate leisure time to extracurricular activities.",
+          "Discretionary time management affects academic performance.",
+          "How learners utilize free periods influences outcomes."
+        ]
+      },
+      {
+        "collocation": "short videos",
+        "learner_freq": 36,
+        "learner_per_million": 499,
+        "corpus_freq_per_million": 0,
+        "ratio": null,
+        "error_type": "overuse",
+        "correct_form": "brief video content / short-form media / video clips",
+        "issue": "informal, emerging term",
+        "examples": [
+          "Brief video content enhances microlearning experiences.",
+          "Short-form media accommodates decreasing attention spans.",
+          "Educational video clips supplement traditional instruction."
+        ]
+      },
+      {
+        "collocation": "negative impact",
+        "learner_freq": 11,
+        "learner_per_million": 152,
+        "corpus_freq_per_million": 8.690,
+        "ratio": 17,
+        "error_type": "overuse",
+        "correct_form": "adverse effect / detrimental influence / deleterious impact",
+        "issue": "overused phrase",
+        "examples": [
+          "Screen time exerts an adverse effect on sleep quality.",
+          "Multitasking has a detrimental influence on comprehension.",
+          "Stress produces deleterious impacts on cognitive performance."
+        ]
+      },
+      {
+        "collocation": "many students",
+        "learner_freq": 22,
+        "learner_per_million": 305,
+        "corpus_freq_per_million": 0,
+        "ratio": null,
+        "error_type": "overuse",
+        "correct_form": "numerous students / a significant proportion of learners / many learners",
+        "issue": "informal quantifier",
+        "examples": [
+          "Numerous students experience difficulty with academic writing.",
+          "A significant proportion of learners require additional support.",
+          "Research indicates that many learners benefit from scaffolding."
+        ]
+      },
+      {
+        "collocation": "many people",
+        "learner_freq": 10,
+        "learner_per_million": 139,
+        "corpus_freq_per_million": 56.488,
+        "ratio": 2.5,
+        "error_type": "overuse",
+        "correct_form": "numerous individuals / a substantial number of people",
+        "issue": "informal, vague",
+        "examples": [
+          "Numerous individuals engage with online learning platforms.",
+          "A substantial number of people access educational resources digitally.",
+          "Research participants included diverse demographic groups."
+        ]
+      },
+      {
+        "collocation": "get information",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 2,
+        "ratio": 42,
+        "error_type": "overuse",
+        "correct_form": "obtain information / acquire data / access resources",
+        "issue": "informal verb",
+        "examples": [
+          "Students obtain information from peer-reviewed sources.",
+          "Researchers acquire data through systematic methods.",
+          "Digital libraries enable users to access scholarly resources."
+        ]
+      },
+      {
+        "collocation": "find information",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 3,
+        "ratio": 23,
+        "error_type": "overuse",
+        "correct_form": "locate information / retrieve data / identify sources",
+        "issue": "informal verb",
+        "examples": [
+          "Information literacy enables students to locate credible information.",
+          "Database skills help researchers retrieve relevant data.",
+          "Critical evaluation assists in identifying authoritative sources."
+        ]
+      },
+      {
+        "collocation": "ask questions",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 8,
+        "ratio": 10,
+        "error_type": "overuse",
+        "correct_form": "pose questions / formulate inquiries / raise queries",
+        "issue": "informal, conversational",
+        "examples": [
+          "Critical thinking involves the ability to pose relevant questions.",
+          "Students learn to formulate inquiries that drive investigation.",
+          "Discussions encourage learners to raise substantive queries."
+        ]
+      },
+      {
+        "collocation": "solve problems",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 12,
+        "ratio": 7,
+        "error_type": "overuse",
+        "correct_form": "address challenges / resolve issues / tackle problems",
+        "issue": "overused phrase",
+        "examples": [
+          "Critical thinking enables learners to address complex challenges.",
+          "Collaborative approaches help resolve multifaceted issues.",
+          "Problem-based learning requires students to tackle authentic problems."
+        ]
+      },
+      {
+        "collocation": "think deeply",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 1,
+        "ratio": 69,
+        "error_type": "overuse",
+        "correct_form": "engage in critical thought / think critically / analyze deeply",
+        "issue": "informal adverb",
+        "examples": [
+          "Effective pedagogy encourages students to engage in critical thought.",
+          "Metacognitive strategies enable learners to think critically.",
+          "Deep learning requires students to analyze concepts thoroughly."
+        ]
+      },
+      {
+        "collocation": "good way",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 3,
+        "ratio": 28,
+        "error_type": "overuse",
+        "correct_form": "effective method / viable approach / productive strategy",
+        "issue": "informal adjective",
+        "examples": [
+          "Collaborative learning represents an effective method for skill development.",
+          "Project-based instruction offers a viable approach to engagement.",
+          "Formative assessment constitutes a productive strategy for improvement."
+        ]
+      },
+      {
+        "collocation": "good tool",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 1,
+        "ratio": 69,
+        "error_type": "overuse",
+        "correct_form": "effective instrument / valuable resource",
+        "issue": "informal adjective",
+        "examples": [
+          "Rubrics serve as an effective instrument for evaluating performance.",
+          "Digital portfolios constitute a valuable resource for reflection.",
+          "Peer feedback provides a useful mechanism for improvement."
+        ]
+      },
+      {
+        "collocation": "find people",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 2,
+        "ratio": 28,
+        "error_type": "overuse",
+        "correct_form": "identify individuals / locate participants / recruit subjects",
+        "issue": "informal verb",
+        "examples": [
+          "Researchers identify individuals who meet inclusion criteria.",
+          "Snowball sampling helps locate participants in hard-to-reach populations.",
+          "Ethical protocols govern how investigators recruit research subjects."
+        ]
+      },
+      {
+        "collocation": "new things",
+        "learner_freq": 5,
+        "learner_per_million": 69,
+        "corpus_freq_per_million": 3,
+        "ratio": 23,
+        "error_type": "overuse",
+        "correct_form": "novel concepts / emerging phenomena / new developments",
+        "issue": "vague noun",
+        "examples": [
+          "Learners demonstrate curiosity about novel concepts in their field.",
+          "Research investigates emerging phenomena in digital education.",
+          "The literature review synthesizes new developments in pedagogy."
+        ]
+      },
+      {
+        "collocation": "new friends",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 1,
+        "ratio": 55,
+        "error_type": "overuse",
+        "correct_form": "new acquaintances / social connections / peer relationships",
+        "issue": "informal, non-academic",
+        "examples": [
+          "University environments facilitate formation of new acquaintances.",
+          "Collaborative activities help establish social connections.",
+          "Peer relationships contribute to student retention."
+        ]
+      },
+      {
+        "collocation": "play games",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 2,
+        "ratio": 28,
+        "error_type": "overuse",
+        "correct_form": "engage in recreational activities / participate in gaming",
+        "issue": "informal, non-academic",
+        "examples": [
+          "Students engage in recreational activities during breaks.",
+          "Gamification incorporates elements from gaming into learning.",
+          "Leisure activities, including gaming, affect study time allocation."
+        ]
+      },
+      {
+        "collocation": "online shopping",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 5,
+        "ratio": 8,
+        "error_type": "overuse",
+        "correct_form": "e-commerce / digital retail / online purchasing",
+        "issue": "informal, non-academic context",
+        "examples": [
+          "E-commerce platforms have transformed consumer behavior.",
+          "Digital retail environments offer personalized experiences.",
+          "Online purchasing behaviors reflect changing social patterns."
+        ]
+      },
+      {
+        "collocation": "listen to music",
+        "learner_freq": 2,
+        "learner_per_million": 28,
+        "corpus_freq_per_million": 3,
+        "ratio": 9,
+        "error_type": "overuse",
+        "correct_form": "engage with musical content / music listening",
+        "issue": "informal, non-academic",
+        "examples": [
+          "Students engage with musical content during study breaks.",
+          "Music listening behaviors affect concentration patterns.",
+          "Research examines how auditory stimuli influence cognition."
+        ]
+      },
+      {
+        "collocation": "make progress",
+        "learner_freq": 8,
+        "learner_per_million": 111,
+        "corpus_freq_per_million": 0.869,
+        "ratio": 128,
+        "error_type": "overuse",
+        "correct_form": "demonstrate progress / achieve advancement / show improvement","issue": "informal, overused",
+        "examples": [
+          "Students demonstrate progress through formative assessments.",
+          "Learners achieve advancement when provided appropriate scaffolding.",
+          "Data indicate that participants show improvement over time."
+        ]
+      },
+      {
+        "collocation": "convenient way",
+        "learner_freq": 8,
+        "learner_per_million": 111,
+        "corpus_freq_per_million": 2,
+        "ratio": 56,
+        "error_type": "overuse",
+        "correct_form": "accessible method / efficient approach / expedient means",
+        "issue": "informal adjective",
+        "examples": [
+          "Digital platforms provide an accessible method for collaboration.",
+          "Online learning offers an efficient approach to skill development.",
+          "Technology serves as expedient means of information dissemination."
+        ]
+      },
+      {
+        "collocation": "study groups",
+        "learner_freq": 8,
+        "learner_per_million": 111,
+        "corpus_freq_per_million": 3,
+        "ratio": 37,
+        "error_type": "overuse",
+        "correct_form": "collaborative learning groups / peer study communities",
+        "issue": "informal term",
+        "examples": [
+          "Collaborative learning groups enhance comprehension of complex material.",
+          "Peer study communities facilitate knowledge construction.",
+          "Structured group work promotes deeper engagement with content."
+        ]
+      },
+      {
+        "collocation": "old friends",
+        "learner_freq": 7,
+        "learner_per_million": 97,
+        "corpus_freq_per_million": 2.607,
+        "ratio": 37,
+        "error_type": "overuse",
+        "correct_form": "long-standing relationships / established connections",
+        "issue": "informal, non-academic",
+        "examples": [
+          "Social media enables maintenance of long-standing relationships.",
+          "Alumni networks help preserve established connections.",
+          "Digital communication sustains relationships across distance."
+        ]
+      },
+      {
+        "collocation": "important part",
+        "learner_freq": 7,
+        "learner_per_million": 97,
+        "corpus_freq_per_million": 5.214,
+        "ratio": 19,
+        "error_type": "overuse",
+        "correct_form": "integral component / essential element / crucial aspect",
+        "issue": "informal adjective",
+        "examples": [
+          "Critical thinking constitutes an integral component of higher education.",
+          "Feedback represents an essential element of effective pedagogy.",
+          "Collaboration forms a crucial aspect of contemporary learning."
+        ]
+      },
+      {
+        "collocation": "useful information",
+        "learner_freq": 7,
+        "learner_per_million": 97,
+        "corpus_freq_per_million": 1.738,
+        "ratio": 56,
+        "error_type": "overuse",
+        "correct_form": "valuable information / relevant data / pertinent resources",
+        "issue": "informal adjective",
+        "examples": [
+          "Digital libraries provide access to valuable information.",
+          "Research databases contain relevant data for academic inquiry.",
+          "Librarians help students identify pertinent resources."
+        ]
+      },
+      {
+        "collocation": "take advantage",
+        "learner_freq": 6,
+        "learner_per_million": 83,
+        "corpus_freq_per_million": 6.952,
+        "ratio": 12,
+        "error_type": "overuse",
+        "correct_form": "capitalize on / leverage / utilize",
+        "issue": "informal phrase",
+        "examples": [
+          "Successful students capitalize on available support services.",
+          "Educators leverage technology to enhance instruction.",
+          "Institutions utilize partnerships to expand opportunities."
+        ]
+      }
+    ],
+    
+    "underuse": [
+      {
+        "collocation": "critical thinking",
+        "learner_freq": 2,
+        "learner_per_million": 28,
+        "corpus_freq_per_million": 120,
+        "ratio": 0.23,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "essential academic concept, significantly underused",
+        "examples": [
+          "Critical thinking skills are fundamental to academic success.",
+          "Educators emphasize the development of critical thinking abilities.",
+          "Assessment should measure students' critical thinking competencies."
+        ]
+      },
+      {
+        "collocation": "academic research",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 150,
+        "ratio": 0.28,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "core academic phrase, underrepresented",
+        "examples": [
+          "Academic research requires rigorous methodological approaches.",
+          "Peer review ensures the quality of academic research.",
+          "Funding agencies support academic research across disciplines."
+        ]
+      },
+      {
+        "collocation": "educational content",
+        "learner_freq": 4,
+        "learner_per_million": 55,
+        "corpus_freq_per_million": 110,
+        "ratio": 0.5,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "relevant academic term, should be used more",
+        "examples": [
+          "Digital platforms host diverse educational content.",
+          "Quality assurance mechanisms evaluate educational content.",
+          "Open educational resources provide freely accessible educational content."
+        ]
+      },
+      {
+        "collocation": "academic goals",
+        "learner_freq": 3,
+        "learner_per_million": 42,
+        "corpus_freq_per_million": 95,
+        "ratio": 0.44,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "important academic phrase, underutilized",
+        "examples": [
+          "Students align their efforts with academic goals.",
+          "Institutions establish clear academic goals for programs.",
+          "Advising helps students articulate academic goals."
+        ]
+      },
+      {
+        "collocation": "empirical evidence",
+        "learner_freq": 1,
+        "learner_per_million": 14,
+        "corpus_freq_per_million": 140,
+        "ratio": 0.1,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "essential research term, rarely used",
+        "examples": [
+          "Claims must be supported by empirical evidence.",
+          "Empirical evidence demonstrates the intervention's effectiveness.",
+          "Researchers gather empirical evidence through systematic observation."
+        ]
+      },
+      {
+        "collocation": "theoretical framework",
+        "learner_freq": 0,
+        "learner_per_million": 0,
+        "corpus_freq_per_million": 130,
+        "ratio": 0,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "crucial academic concept, completely absent",
+        "examples": [
+          "The study employs a constructivist theoretical framework.",
+          "Theoretical frameworks guide research design and analysis.",
+          "Multiple theoretical frameworks inform this investigation."
+        ]
+      },
+      {
+        "collocation": "systematic review",
+        "learner_freq": 0,
+        "learner_per_million": 0,
+        "corpus_freq_per_million": 115,
+        "ratio": 0,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "key research methodology, not used",
+        "examples": [
+          "A systematic review synthesizes existing research on the topic.",
+          "Systematic reviews follow explicit protocols for study selection.",
+          "Meta-analysis complements systematic review findings."
+        ]
+      },
+      {
+        "collocation": "pedagogical approaches",
+        "learner_freq": 1,
+        "learner_per_million": 14,
+        "corpus_freq_per_million": 105,
+        "ratio": 0.13,
+        "error_type": "underuse",
+        "should_use_more": true,
+        "issue": "important education term, underused",
+        "examples": [
+          "Diverse pedagogical approaches accommodate different learning styles.",
+          "Evidence-based pedagogical approaches enhance student outcomes.",
+          "Faculty development programs introduce innovative pedagogical approaches."
+        ]
+      }
+    ]
+  }
+}

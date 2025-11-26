@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "description": "Hedging training data for academic writing",
+    "corpus_comparison": {
+      "learner_corpus": {
+        "total_files": 79,
+        "total_words": 65997,
+        "hedging_density_per_1000_words": 29.4
+      },
+      "bawe_baseline": {
+        "hedging_density_per_1000_words": 18.86,
+        "category_distribution": {
+          "modal_verbs": 50.8,
+          "lexical_verbs": 17.3,
+          "adverbs": 15.1,
+          "adjectives": 7.3,
+          "nouns": 6.9,
+          "compound_expressions": 2.8
+        },
+        "sample_size": 80,
+        "total_words_analyzed": 186518
+      }
+    },
+    "hedging_categories": {
+      "modal_verbs": "Modal verbs expressing possibility or uncertainty",
+      "lexical_verbs": "Verbs expressing epistemic stance",
+      "adverbs": "Adverbs of probability and approximation",
+      "adjectives": "Adjectives expressing uncertainty",
+      "nouns": "Nouns denoting epistemic concepts",
+      "compound_expressions": "Complex hedging expressions"
+    }
+  },
+  "identified_problems": [
+    {
+      "type": "overuse",
+      "severity": "medium",
+      "learner_density": 29.4,
+      "bawe_density": 18.86,
+      "description": "Hedging density (29.40) is higher than BAWE baseline (18.86)",
+      "suggestion": "Consider reducing hedging to avoid sounding too tentative"
+    },
+    {
+      "type": "limited_variety",
+      "severity": "medium",
+      "overused_items": [
+        "'can' (45.4%)"
+      ],
+      "description": "Over-reliance on: 'can' (45.4%)",
+      "suggestion": "Diversify hedging expressions using different categories"
+    }
+  ],
+  "learner_hedging_distribution": {
+    "category_counts": {
+      "modal_verbs": 1303,
+      "lexical_verbs": 280,
+      "adverbs": 211,
+      "compound_expressions": 12,
+      "nouns": 82,
+      "adjectives": 52
+    },
+    "most_used_expressions": {
+      "can": 880,
+      "may": 153,
+      "think": 134,
+      "should": 102,
+      "could": 75,
+      "might": 52,
+      "rather": 50,
+      "would": 41,
+      "often": 40,
+      "believe": 37,
+      "opinion": 36,
+      "view": 33,
+      "likely": 32,
+      "sometimes": 21,
+      "maybe": 20
+    }
+  },
+  "training_items": [
+    {
+      "id": 1,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "should",
+        "could",
+        "would",
+        "can",
+        "might"
+      ]
+    },
+    {
+      "id": 2,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "can",
+        "could",
+        "should",
+        "might",
+        "would"
+      ]
+    },
+    {
+      "id": 3,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "should",
+        "can",
+        "could",
+        "would"
+      ]
+    },
+    {
+      "id": 4,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "should",
+        "might",
+        "can",
+        "would",
+        "could"
+      ]
+    },
+    {
+      "id": 5,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "may",
+        "could",
+        "should",
+        "might",
+        "would"
+      ]
+    },
+    {
+      "id": 6,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "should",
+        "may",
+        "could",
+        "would"
+      ]
+    },
+    {
+      "id": 7,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "might",
+        "would",
+        "should",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": 8,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "may",
+        "might",
+        "could",
+        "would",
+        "should"
+      ]
+    },
+    {
+      "id": 9,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "could",
+        "may",
+        "should",
+        "might",
+        "would"
+      ]
+    },
+    {
+      "id": 10,
+      "sentence": "with the rapid advancement of technology,our society is undergoing profound changes in terms of education patterns.more and more university students start to use social media to study in the university.according to a china youth news survey in 2013 shows that 97.4% university students who was interviewed use social media to help them study in their daily lives,the proportion of using social media to study everyday reached 50.8%,the proportion of using it three or four times a week reached 28.6%.with the outbreak of covid-19 in 2020,students who couldn’t go back to school had online classes to ensure our normal study.however,going through the online classes,many students’ exam scores were sharply lower than before and we can’t focus on their works like before.so the debate whether social media is a helpful tool or a harmful distraction has intensified in recent years.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "would",
+        "may",
+        "should",
+        "might",
+        "could"
+      ]
+    },
+    {
+      "id": 11,
+      "sentence": "although it seems that social media is a helpful tool,it is also seen as harmful distraction.first of all,it causes physical problems.a long time electronic products using is harm to students’ eyesight.it may also lead to other eye disease,such as dry eye syndrome,conjunctivitis.the proportion of myopia among student group is increasing.there is mountains of fake information on social media which mislead students on their study.in addition,when people use the social media,many of us feel that time flies and if we don’t pay attention to the time,it may waste their time.people’s studies or works will be delay.social media can make our brain produce dopamine,which constantly arouses our desires to watch it.but when we start to study,we will feel bored and lose patience just for a few minutes.then we couldn’t help watching our social media many times and hardly focusing on what we really need to do.it made us distracted.“when university students attend to interruptions from their vast array of media devices while studying, one ramification appears to be an increase in the amount of time it takes them to study compared to simply studying without interference.",
+      "hedging_word": "seems",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "indicates",
+        "suppose",
+        "thinks",
+        "imply",
+        "tends"
+      ]
+    },
+    {
+      "id": 12,
+      "sentence": "although it seems that social media is a helpful tool,it is also seen as harmful distraction.first of all,it causes physical problems.a long time electronic products using is harm to students’ eyesight.it may also lead to other eye disease,such as dry eye syndrome,conjunctivitis.the proportion of myopia among student group is increasing.there is mountains of fake information on social media which mislead students on their study.in addition,when people use the social media,many of us feel that time flies and if we don’t pay attention to the time,it may waste their time.people’s studies or works will be delay.social media can make our brain produce dopamine,which constantly arouses our desires to watch it.but when we start to study,we will feel bored and lose patience just for a few minutes.then we couldn’t help watching our social media many times and hardly focusing on what we really need to do.it made us distracted.“when university students attend to interruptions from their vast array of media devices while studying, one ramification appears to be an increase in the amount of time it takes them to study compared to simply studying without interference.",
+      "hedging_word": "appears",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "identify",
+      "alternatives": [
+        "argue",
+        "indicate",
+        "assume",
+        "imply",
+        "indicates"
+      ]
+    },
+    {
+      "id": 13,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "maybe",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "usually",
+        "frequently",
+        "possibly",
+        "perhaps",
+        "often"
+      ]
+    },
+    {
+      "id": 14,
+      "sentence": "it’s obviously undeniable to say that social media bring many benefits to us.with the social media,we can contact with each other easily.when we need to complete some group projects,it helps us improve the efficiency of communication and get the instant feedback.what’s more,when we have some questions and need to ask teachers,sending them a message or an email is convenient,which is useful to improve students’ study.besides,there are lots of video platforms rising in these years,such as bilibili,tiktok，the red book,which include a large number of popular science videos for public to study.at the same time,there are also abundant authoritative resources which are post by official accounts for academic study,greatly alleviated the difficulties in university students’ study.different people maybe have different methods to solve a same problem so that university students are able to make an ideological spark with others.social media is a helpful tool to narrow the urban-rural gap.it solves part of the teacher and educational resources shortage problems,which protect rural students’ right to acquire knowledge.the setting of course playback fosters students’ recognition of knowledge and helps us adapt and understand the courses easily.in the mental aspect,university students usually share their moment on wechat to express their different feelings.for example,when we finish a heavy project,we may choose to share their achievement or success with our friends and receive some blessing that help us have more energy to stick on studying.it produces a positive effect.",
+      "hedging_word": "usually",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "identify",
+      "alternatives": [
+        "occasionally",
+        "unlikely",
+        "typically",
+        "relatively",
+        "rather"
+      ]
+    },
+    {
+      "id": 15,
+      "sentence": "although it seems that social media is a helpful tool,it is also seen as harmful distraction.first of all,it causes physical problems.a long time electronic products using is harm to students’ eyesight.it may also lead to other eye disease,such as dry eye syndrome,conjunctivitis.the proportion of myopia among student group is increasing.there is mountains of fake information on social media which mislead students on their study.in addition,when people use the social media,many of us feel that time flies and if we don’t pay attention to the time,it may waste their time.people’s studies or works will be delay.social media can make our brain produce dopamine,which constantly arouses our desires to watch it.but when we start to study,we will feel bored and lose patience just for a few minutes.then we couldn’t help watching our social media many times and hardly focusing on what we really need to do.it made us distracted.“when university students attend to interruptions from their vast array of media devices while studying, one ramification appears to be an increase in the amount of time it takes them to study compared to simply studying without interference.",
+      "hedging_word": "it seems that",
+      "category": "compound_expressions",
+      "category_description": "Complex hedging expressions",
+      "level": "advanced",
+      "exercise_type": "replace",
+      "alternatives": [
+        "to some degree",
+        "to a certain degree",
+        "seems like",
+        "in some cases",
+        "it might be that"
+      ]
+    },
+    {
+      "id": 16,
+      "sentence": "on the other hand,social media can be harmful as a sweet trap if you can not resist the algorithm which is be carefully designed to attract you and be addicited to the illusory online life.then i will elaborate on it’s induction mechanism through some scientific data detailedly.firstly,the content likes the short video or the short text and images has cannibalized and castrated the undergradutes ’ intension.according to stanford’s research,our contemporary people has become more and more diffivult to concentrate complex content like a film or a thick and complicated book because the abundant short video which possess the charctistics like faster speed and a mass of information are stimulating your brain whille you are reading them which would casue your intension and the ability to self-exploration and resolving problems be declined and more difficult to enter the state of flow(mihaly csikszentmihalyi).more fearsome,this mechanism would be addicted and difficult to solve.secondly,social media may deepen our anxiety and be harmful for our mental health.as the “survivorship blas”and the thought of everyone want to show a perfect figure that almost all time we will see others success and blessedness.and then,we will compare them with ourselves\nsubconsciously.this peer pressure leads to self-doubt like only you live in mediocity and sruggle.sometimes,it may magnify your suffering.this feeling calle‘‘fomo(fear of missing out)’’is n important factor of depression,anxiety and difficulty for sleeping.meanwhile,the online social life may lead to the ignorance of real life.according to the repory,the time we spend in social media has explosive increase and the time we communicate with others face to face have been declined absolutely.last,we have to face up to the dark side of the social media.in order to attract and retain users,the algorithm will containly to push the information you suppoted to that will cause a wrong cognize that many people think same with me even though is false.this mechanism called “information cocoons” leads to cognitive blas that the opinion we cn get become more and more monotonous and eroded the ability of dialectial thinking.furthermore,the wrong information and rumors can be easily spread on the internet which can be a challenge for undergraduates who have not grasped the media literacy.so,for the undergrates who have just entered the state of maturity,social media can be harmful.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "could",
+        "would",
+        "should",
+        "might",
+        "can"
+      ]
+    },
+    {
+      "id": 17,
+      "sentence": "on the other hand,social media can be harmful as a sweet trap if you can not resist the algorithm which is be carefully designed to attract you and be addicited to the illusory online life.then i will elaborate on it’s induction mechanism through some scientific data detailedly.firstly,the content likes the short video or the short text and images has cannibalized and castrated the undergradutes ’ intension.according to stanford’s research,our contemporary people has become more and more diffivult to concentrate complex content like a film or a thick and complicated book because the abundant short video which possess the charctistics like faster speed and a mass of information are stimulating your brain whille you are reading them which would casue your intension and the ability to self-exploration and resolving problems be declined and more difficult to enter the state of flow(mihaly csikszentmihalyi).more fearsome,this mechanism would be addicted and difficult to solve.secondly,social media may deepen our anxiety and be harmful for our mental health.as the “survivorship blas”and the thought of everyone want to show a perfect figure that almost all time we will see others success and blessedness.and then,we will compare them with ourselves\nsubconsciously.this peer pressure leads to self-doubt like only you live in mediocity and sruggle.sometimes,it may magnify your suffering.this feeling calle‘‘fomo(fear of missing out)’’is n important factor of depression,anxiety and difficulty for sleeping.meanwhile,the online social life may lead to the ignorance of real life.according to the repory,the time we spend in social media has explosive increase and the time we communicate with others face to face have been declined absolutely.last,we have to face up to the dark side of the social media.in order to attract and retain users,the algorithm will containly to push the information you suppoted to that will cause a wrong cognize that many people think same with me even though is false.this mechanism called “information cocoons” leads to cognitive blas that the opinion we cn get become more and more monotonous and eroded the ability of dialectial thinking.furthermore,the wrong information and rumors can be easily spread on the internet which can be a challenge for undergraduates who have not grasped the media literacy.so,for the undergrates who have just entered the state of maturity,social media can be harmful.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "could",
+        "should",
+        "can",
+        "would",
+        "might"
+      ]
+    },
+    {
+      "id": 18,
+      "sentence": "on the other hand,social media can be harmful as a sweet trap if you can not resist the algorithm which is be carefully designed to attract you and be addicited to the illusory online life.then i will elaborate on it’s induction mechanism through some scientific data detailedly.firstly,the content likes the short video or the short text and images has cannibalized and castrated the undergradutes ’ intension.according to stanford’s research,our contemporary people has become more and more diffivult to concentrate complex content like a film or a thick and complicated book because the abundant short video which possess the charctistics like faster speed and a mass of information are stimulating your brain whille you are reading them which would casue your intension and the ability to self-exploration and resolving problems be declined and more difficult to enter the state of flow(mihaly csikszentmihalyi).more fearsome,this mechanism would be addicted and difficult to solve.secondly,social media may deepen our anxiety and be harmful for our mental health.as the “survivorship blas”and the thought of everyone want to show a perfect figure that almost all time we will see others success and blessedness.and then,we will compare them with ourselves\nsubconsciously.this peer pressure leads to self-doubt like only you live in mediocity and sruggle.sometimes,it may magnify your suffering.this feeling calle‘‘fomo(fear of missing out)’’is n important factor of depression,anxiety and difficulty for sleeping.meanwhile,the online social life may lead to the ignorance of real life.according to the repory,the time we spend in social media has explosive increase and the time we communicate with others face to face have been declined absolutely.last,we have to face up to the dark side of the social media.in order to attract and retain users,the algorithm will containly to push the information you suppoted to that will cause a wrong cognize that many people think same with me even though is false.this mechanism called “information cocoons” leads to cognitive blas that the opinion we cn get become more and more monotonous and eroded the ability of dialectial thinking.furthermore,the wrong information and rumors can be easily spread on the internet which can be a challenge for undergraduates who have not grasped the media literacy.so,for the undergrates who have just entered the state of maturity,social media can be harmful.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "would",
+        "could",
+        "can",
+        "might",
+        "should"
+      ]
+    },
+    {
+      "id": 19,
+      "sentence": "i sincerely hope that all of us could be the master of “sword”,but not the slave who suffer from the edge.",
+      "hedging_word": "could",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "would",
+        "should",
+        "might",
+        "may",
+        "can"
+      ]
+    },
+    {
+      "id": 20,
+      "sentence": "as far as i am concerned,i believed that the soicial media is more helpful rather than harmful for undergraduates if you grasp the digital literacy.there is no doubt that the social media is a double-edged sword,but whether the balade would stab at yourself or make you more powerful,it depends on how and why you use the social media.",
+      "hedging_word": "would",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "should",
+        "could",
+        "may",
+        "can",
+        "might"
+      ]
+    },
+    {
+      "id": 21,
+      "sentence": "as far as i am concerned,i believed that the soicial media is more helpful rather than harmful for undergraduates if you grasp the digital literacy.there is no doubt that the social media is a double-edged sword,but whether the balade would stab at yourself or make you more powerful,it depends on how and why you use the social media.",
+      "hedging_word": "would",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "might",
+        "can",
+        "could",
+        "should",
+        "may"
+      ]
+    },
+    {
+      "id": 22,
+      "sentence": "as far as i am concerned,i believed that the soicial media is more helpful rather than harmful for undergraduates if you grasp the digital literacy.there is no doubt that the social media is a double-edged sword,but whether the balade would stab at yourself or make you more powerful,it depends on how and why you use the social media.",
+      "hedging_word": "would",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "should",
+        "can",
+        "may",
+        "could",
+        "might"
+      ]
+    },
+    {
+      "id": 23,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "may",
+        "should",
+        "might",
+        "could",
+        "would"
+      ]
+    },
+    {
+      "id": 24,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "could",
+        "may",
+        "would",
+        "should"
+      ]
+    },
+    {
+      "id": 25,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "might",
+        "should",
+        "could",
+        "may",
+        "would"
+      ]
+    },
+    {
+      "id": 26,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "should",
+        "could",
+        "may",
+        "would"
+      ]
+    },
+    {
+      "id": 27,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "could",
+        "would",
+        "may",
+        "should",
+        "might"
+      ]
+    },
+    {
+      "id": 28,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "would",
+        "might",
+        "could",
+        "may",
+        "should"
+      ]
+    },
+    {
+      "id": 29,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "might",
+        "would",
+        "should",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": 30,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "might",
+        "could",
+        "may",
+        "should",
+        "would"
+      ]
+    },
+    {
+      "id": 31,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "could",
+        "should",
+        "would",
+        "may",
+        "might"
+      ]
+    },
+    {
+      "id": 32,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "should",
+        "could",
+        "would",
+        "might",
+        "may"
+      ]
+    },
+    {
+      "id": 33,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "may",
+        "would",
+        "might",
+        "could",
+        "should"
+      ]
+    },
+    {
+      "id": 34,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "could",
+        "might",
+        "should",
+        "may",
+        "would"
+      ]
+    },
+    {
+      "id": 35,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "would",
+        "could",
+        "should",
+        "may",
+        "might"
+      ]
+    },
+    {
+      "id": 36,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "could",
+        "might",
+        "would",
+        "may",
+        "should"
+      ]
+    },
+    {
+      "id": 37,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "would",
+        "should",
+        "might",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": 38,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "think",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "tend",
+        "estimates",
+        "speculate",
+        "implies",
+        "argue"
+      ]
+    },
+    {
+      "id": 39,
+      "sentence": "as far as i am concerned,i believed that the soicial media is more helpful rather than harmful for undergraduates if you grasp the digital literacy.there is no doubt that the social media is a double-edged sword,but whether the balade would stab at yourself or make you more powerful,it depends on how and why you use the social media.",
+      "hedging_word": "rather",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "probably",
+        "approximately",
+        "possibly",
+        "conceivably",
+        "usually"
+      ]
+    },
+    {
+      "id": 40,
+      "sentence": "on the other hand,social media can be harmful as a sweet trap if you can not resist the algorithm which is be carefully designed to attract you and be addicited to the illusory online life.then i will elaborate on it’s induction mechanism through some scientific data detailedly.firstly,the content likes the short video or the short text and images has cannibalized and castrated the undergradutes ’ intension.according to stanford’s research,our contemporary people has become more and more diffivult to concentrate complex content like a film or a thick and complicated book because the abundant short video which possess the charctistics like faster speed and a mass of information are stimulating your brain whille you are reading them which would casue your intension and the ability to self-exploration and resolving problems be declined and more difficult to enter the state of flow(mihaly csikszentmihalyi).more fearsome,this mechanism would be addicted and difficult to solve.secondly,social media may deepen our anxiety and be harmful for our mental health.as the “survivorship blas”and the thought of everyone want to show a perfect figure that almost all time we will see others success and blessedness.and then,we will compare them with ourselves\nsubconsciously.this peer pressure leads to self-doubt like only you live in mediocity and sruggle.sometimes,it may magnify your suffering.this feeling calle‘‘fomo(fear of missing out)’’is n important factor of depression,anxiety and difficulty for sleeping.meanwhile,the online social life may lead to the ignorance of real life.according to the repory,the time we spend in social media has explosive increase and the time we communicate with others face to face have been declined absolutely.last,we have to face up to the dark side of the social media.in order to attract and retain users,the algorithm will containly to push the information you suppoted to that will cause a wrong cognize that many people think same with me even though is false.this mechanism called “information cocoons” leads to cognitive blas that the opinion we cn get become more and more monotonous and eroded the ability of dialectial thinking.furthermore,the wrong information and rumors can be easily spread on the internet which can be a challenge for undergraduates who have not grasped the media literacy.so,for the undergrates who have just entered the state of maturity,social media can be harmful.",
+      "hedging_word": "sometimes",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "probably",
+        "often",
+        "unlikely",
+        "conceivably",
+        "fairly"
+      ]
+    },
+    {
+      "id": 41,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "opinion",
+      "category": "nouns",
+      "category_description": "Nouns denoting epistemic concepts",
+      "level": "advanced",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "likelihood",
+        "assumption",
+        "view",
+        "probability",
+        "tendency"
+      ]
+    },
+    {
+      "id": 42,
+      "sentence": "for one hand,social media is absolutely helpful for our undergradutes which can be served as a bridge and show us a way forward friendship,knowledge and so on.then i will explain my opinion respectively from three aspects each of them are about social contact and academic research,first at all,social media is a platform for self-introduction and construct ours social bussiness card.now\nin the morden era ,social media is indispendensable for us to connect with others.for example,students make the use of the social apps like youtube or redbook to operate self-media accoounts and puublish vlogs where they can show their talents and record their growth.these creative and sharing process,it’s a course for us to find inner ourselves,build confidence and gain social recognition which is useful for the development of creativity and personality.secondly,social media can link us with our friends and even the wholeworld.nowadays,please remminiscence that classmates use wechat to send message,teachers publsh homework by email and so many daliy examples show that the social media is an essensial step to participate in contemporary life.moreover,the social media greatly broadened our social boundaries.it can not only help us to make friends with gloabal people who share the same interests which can cultivate our soial ability and deepen the realise for world but also brings more information and chances to us.laat but not least,the social media have already broken the boundaries for traditional education.any one of us can rely on social media to promote ourselves.for example,you can learning new skills from bilibilil,if you are a student of thechemistry department,you can pay attention to chemical domains and so on.absolutely,it\ngreatly promote the fair education , enrich our study resources and even cultivate our academics thinking.",
+      "hedging_word": "opinion",
+      "category": "nouns",
+      "category_description": "Nouns denoting epistemic concepts",
+      "level": "advanced",
+      "exercise_type": "identify",
+      "alternatives": [
+        "assumption",
+        "probability",
+        "estimate",
+        "possibility",
+        "suggestion"
+      ]
+    },
+    {
+      "id": 43,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "would",
+        "should",
+        "could",
+        "can",
+        "might"
+      ]
+    },
+    {
+      "id": 44,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "can",
+        "might",
+        "would",
+        "could",
+        "should"
+      ]
+    },
+    {
+      "id": 45,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "would",
+        "could",
+        "should",
+        "might",
+        "can"
+      ]
+    },
+    {
+      "id": 46,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "could",
+        "should",
+        "can",
+        "might",
+        "would"
+      ]
+    },
+    {
+      "id": 47,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "might",
+        "would",
+        "could",
+        "should",
+        "can"
+      ]
+    },
+    {
+      "id": 48,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "can",
+        "would",
+        "should",
+        "could"
+      ]
+    },
+    {
+      "id": 49,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "may",
+        "could",
+        "might",
+        "should",
+        "would"
+      ]
+    },
+    {
+      "id": 50,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "might",
+        "should",
+        "would",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": 51,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "should",
+        "may",
+        "could",
+        "would",
+        "might"
+      ]
+    },
+    {
+      "id": 52,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "should",
+        "might",
+        "could",
+        "may",
+        "would"
+      ]
+    },
+    {
+      "id": 53,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "should",
+        "would",
+        "could",
+        "may",
+        "might"
+      ]
+    },
+    {
+      "id": 54,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "should",
+        "could",
+        "would",
+        "might",
+        "may"
+      ]
+    },
+    {
+      "id": 55,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "would",
+        "may",
+        "could",
+        "might",
+        "should"
+      ]
+    },
+    {
+      "id": 56,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "could",
+        "should",
+        "might",
+        "would",
+        "may"
+      ]
+    },
+    {
+      "id": 57,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "replace",
+      "alternatives": [
+        "may",
+        "could",
+        "might",
+        "would",
+        "should"
+      ]
+    },
+    {
+      "id": 58,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "should",
+        "might",
+        "would",
+        "may",
+        "could"
+      ]
+    },
+    {
+      "id": 59,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "can",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "would",
+        "might",
+        "could",
+        "should",
+        "may"
+      ]
+    },
+    {
+      "id": 60,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "seems",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "tends",
+        "believes",
+        "propose",
+        "suggests",
+        "speculates"
+      ]
+    },
+    {
+      "id": 61,
+      "sentence": "at present,two sides all have been discussed.then,in my opinion,i tend to think that social media is a helpful tool,it helps university students learn more.although it sometimes makes it difficult to concentrate on challenging academic work,making it hard to focus, encouraging people to only read short posts instead of deep articles,its advantages are shining enough.i have mentioned about the advantages such as convenient life,more job opportunities and technology development above.these are the factors why i tend to support it.but,there is a most important point i have not mentioned till now,that is,social media promotes news fairness.how many children have missed each years?how many factories are using unconventional materials?what is the specific information about the virus?these information can be told to everyone through social media.the transformation of traditional media to digital media can be a hard evidence of how useful the social media is.decades ago,social media was underdeveloped,and many important news which were closely related to people’s life had been covered.today,people can share information through social media,allowing important news to be released,helping more people learn about a culture or a piece of news.for example,blogger li ziqi,who posted several blogs about life in countryside,combining chinese traditional culture,has brought traditional culture to everyone.for another,a lot of people learn about a party called ”315”,which is about counterfeit goods from social media.it contributes to our health problem.",
+      "hedging_word": "tend",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "seems",
+        "argues",
+        "suppose",
+        "claims",
+        "thinks"
+      ]
+    },
+    {
+      "id": 62,
+      "sentence": "at present,two sides all have been discussed.then,in my opinion,i tend to think that social media is a helpful tool,it helps university students learn more.although it sometimes makes it difficult to concentrate on challenging academic work,making it hard to focus, encouraging people to only read short posts instead of deep articles,its advantages are shining enough.i have mentioned about the advantages such as convenient life,more job opportunities and technology development above.these are the factors why i tend to support it.but,there is a most important point i have not mentioned till now,that is,social media promotes news fairness.how many children have missed each years?how many factories are using unconventional materials?what is the specific information about the virus?these information can be told to everyone through social media.the transformation of traditional media to digital media can be a hard evidence of how useful the social media is.decades ago,social media was underdeveloped,and many important news which were closely related to people’s life had been covered.today,people can share information through social media,allowing important news to be released,helping more people learn about a culture or a piece of news.for example,blogger li ziqi,who posted several blogs about life in countryside,combining chinese traditional culture,has brought traditional culture to everyone.for another,a lot of people learn about a party called ”315”,which is about counterfeit goods from social media.it contributes to our health problem.",
+      "hedging_word": "tend",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "appear",
+        "supposes",
+        "argues",
+        "indicate",
+        "assumes"
+      ]
+    },
+    {
+      "id": 63,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "think",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "replace",
+      "alternatives": [
+        "indicates",
+        "imply",
+        "claim",
+        "assumes",
+        "seems"
+      ]
+    },
+    {
+      "id": 64,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "think",
+      "category": "lexical_verbs",
+      "category_description": "Verbs expressing epistemic stance",
+      "level": "intermediate",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "maintains",
+        "maintain",
+        "hypothesize",
+        "believes",
+        "supposes"
+      ]
+    },
+    {
+      "id": 65,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "somewhat",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "categorize",
+      "alternatives": [
+        "conceivably",
+        "arguably",
+        "often",
+        "fairly",
+        "possibly"
+      ]
+    },
+    {
+      "id": 66,
+      "sentence": "social media is complicated.it has no chance but to recognize that social media does harm students in some aspects .for the most obvious one among these aspects is the distaction of concentration.spare time is fulled of searching for social media for mang students in the university.they may search for it during every ten minutes break,instead of resting their brain by looking outside of windows,or even doing walks and meals.actually ,this kind of phenomenons have been showed through famous social media, likes friends circle,tik tok,or little red book,and so on.a number of bloggers film their incredibly amusing yet somewhat absurd experiences.they put their work on the desk,all the items like laptops ,pens, papers are prepared well,and then ,they begin to play with their mobile phone,from checking the friends circle to searching funny blogs on the little red book.a few hours later ,they are continuously searching social media and have not begin to study or work.these posts have a huge number of likes,and so many people share their same experiences in the comments section.it may seems funny for a time,but,actually,it is a serious problem,and it is not comical at all.after a year or a little longer,thoughts can be changed.students will no more thinking deeply,because of their minds have been fulled of short videos or short articles that easy to read and understand,of course,no funny texts may be like academic articles.when everyone’s problem keep sum up,the environment of university may change,from dedicated to flighty and impetuous.whenever the students face some difficult problems which can not be solved in a very quick moment,they often think they can get a rest and then start to search through social media.even worsen,they may copy the sketchy comments on it.no more their own thoughts.",
+      "hedging_word": "often",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "identify",
+      "alternatives": [
+        "rather",
+        "roughly",
+        "usually",
+        "probably",
+        "maybe"
+      ]
+    },
+    {
+      "id": 67,
+      "sentence": "at present,two sides all have been discussed.then,in my opinion,i tend to think that social media is a helpful tool,it helps university students learn more.although it sometimes makes it difficult to concentrate on challenging academic work,making it hard to focus, encouraging people to only read short posts instead of deep articles,its advantages are shining enough.i have mentioned about the advantages such as convenient life,more job opportunities and technology development above.these are the factors why i tend to support it.but,there is a most important point i have not mentioned till now,that is,social media promotes news fairness.how many children have missed each years?how many factories are using unconventional materials?what is the specific information about the virus?these information can be told to everyone through social media.the transformation of traditional media to digital media can be a hard evidence of how useful the social media is.decades ago,social media was underdeveloped,and many important news which were closely related to people’s life had been covered.today,people can share information through social media,allowing important news to be released,helping more people learn about a culture or a piece of news.for example,blogger li ziqi,who posted several blogs about life in countryside,combining chinese traditional culture,has brought traditional culture to everyone.for another,a lot of people learn about a party called ”315”,which is about counterfeit goods from social media.it contributes to our health problem.",
+      "hedging_word": "sometimes",
+      "category": "adverbs",
+      "category_description": "Adverbs of probability and approximation",
+      "level": "intermediate",
+      "exercise_type": "identify",
+      "alternatives": [
+        "apparently",
+        "perhaps",
+        "fairly",
+        "frequently",
+        "usually"
+      ]
+    },
+    {
+      "id": 68,
+      "sentence": "however,an object can not be denied only because of its several drawbacks.social media arises in 21st century,and it developed in a high speed through past two decades.that means,even though it has some flaws,we still need it.social media is full of energy.it makes our live more convenient.for individuals,social media builds a bridge.it gives us a stage to show our fantastic hobbies and unique talents,thus students can find those who have same topics and make friends with them.because it has a big probability that you can not find a friend with the same hobbies only in your class.as a result,students’ friend circle have been expanded.also,the internet of things technology has been developed a lot among these years.when individuals search for little red book or tik tok,look for the things they interested in,clicking the likes,so that next time when they are searching taobao app,they may encounter pushes that they really interested in.what’s more,jumping out the little circle of individuals,looking at the entire society,social media contributes to the social technology of data science or computer science.to be more specific,social media platforms need a lot of scientists work for its database and system security.so it pushes the development of these technologies,and create more job opportunities.whether learning resources or learning partners,they can all be found on social media.for university students,these phenomenons are excellent.",
+      "hedging_word": "probability",
+      "category": "nouns",
+      "category_description": "Nouns denoting epistemic concepts",
+      "level": "advanced",
+      "exercise_type": "replace",
+      "alternatives": [
+        "claim",
+        "view",
+        "assumption",
+        "speculation",
+        "estimate"
+      ]
+    },
+    {
+      "id": 69,
+      "sentence": "at present,two sides all have been discussed.then,in my opinion,i tend to think that social media is a helpful tool,it helps university students learn more.although it sometimes makes it difficult to concentrate on challenging academic work,making it hard to focus, encouraging people to only read short posts instead of deep articles,its advantages are shining enough.i have mentioned about the advantages such as convenient life,more job opportunities and technology development above.these are the factors why i tend to support it.but,there is a most important point i have not mentioned till now,that is,social media promotes news fairness.how many children have missed each years?how many factories are using unconventional materials?what is the specific information about the virus?these information can be told to everyone through social media.the transformation of traditional media to digital media can be a hard evidence of how useful the social media is.decades ago,social media was underdeveloped,and many important news which were closely related to people’s life had been covered.today,people can share information through social media,allowing important news to be released,helping more people learn about a culture or a piece of news.for example,blogger li ziqi,who posted several blogs about life in countryside,combining chinese traditional culture,has brought traditional culture to everyone.for another,a lot of people learn about a party called ”315”,which is about counterfeit goods from social media.it contributes to our health problem.",
+      "hedging_word": "opinion",
+      "category": "nouns",
+      "category_description": "Nouns denoting epistemic concepts",
+      "level": "advanced",
+      "exercise_type": "identify",
+      "alternatives": [
+        "likelihood",
+        "assumption",
+        "suggestion",
+        "claim",
+        "tendency"
+      ]
+    },
+    {
+      "id": 70,
+      "sentence": "a student may have intended to read academic articles seriously, but was distracted by chat messages.",
+      "hedging_word": "may",
+      "category": "modal_verbs",
+      "category_description": "Modal verbs expressing possibility or uncertainty",
+      "level": "basic",
+      "exercise_type": "identify",
+      "alternatives": [
+        "would",
+        "should",
+        "can",
+        "might",
+        "could"
+      ]
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "problem": "overuse_may_might",
+      "description": "Over-reliance on may/might",
+      "solution": "Diversify with other modal verbs (could, would) and hedging expressions"
+    },
+    {
+      "problem": "underuse",
+      "description": "Insufficient hedging in claims",
+      "solution": "Add hedging to interpretations and generalizations"
+    },
+    {
+      "problem": "inappropriate",
+      "description": "Hedging established facts",
+      "solution": "Only hedge uncertain or interpretive claims"
+    },
+    {
+      "problem": "limited_variety",
+      "description": "Using only one category of hedging",
+      "solution": "Use combination of modals, adverbs, lexical verbs, and compound expressions"
+    }
+  ]
+}
